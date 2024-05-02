@@ -17,7 +17,7 @@ def play_game():
     losses = 0
     ties = 0
     while True:
-        user_choice = input("Enter your choice (rock, paper, scissors): ")
+        user_choice = input("Enter your choice (rock, paper, scissors): ").lower()
         if user_choice not in ["rock", "paper", "scissors"]:
             print("Invalid choice. Please try again.")
             continue
